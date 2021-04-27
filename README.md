@@ -1,1 +1,2 @@
 # CodeQueen
+Coding class

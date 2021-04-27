@@ -1,4 +1,125 @@
-img {
-    width: 40%;
+
+body {
+    color: white;
+    width: 90%;
+    margin: auto;
+    background-color: black;
+}
+img.banner {
+    width: 30%;
     height: 10%;
+}
+
+#logo {
+    color:cornflowerblue;
+    text-decoration: none;
+}
+
+
+.navbar-top {
+    background-color: darkblue;
+    margin-top: 0px
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu > li {
+display: inline;
+}
+
+.menu > li > a {
+      text-decoration: none;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color:rgb(235,46,21)
+}
+
+a:hover {
+    /* color:darkmagenta; */
+    /* text-transform: uppercase; */
+    /* mix of red white and blue */
+    color: #bacf3f; 
+}
+
+a:active {
+    color: rgb(210,144,71)
+}
+
+.review {
+    background-color: beige;
+    border-bottom: 2px solid rgba(31,23,73,0.548);
+    margin:5px;
+}
+
+div.feed>div>h3 {
+    color:rgb(14,0,95);
+    margin-bottom: 0;
+    padding:6px
+}
+
+.feed {
+    width:50%;
+    height:500px;
+    float: right;
+    padding: 4px;
+    background:cadetblue;
+    overflow:auto;
+}
+
+.review {
+    border-radius: 30px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.review-text {
+    color:rgba(31,23,73,0.548);
+    margin-top: 7px;
+    margin-bottom: 4px;
+    padding:3px 5px 5px 6px;
+    height: 100px;
+    width:90%;
+}
+
+.reviewer {
+    font-style: normal;
+}
+
+.avatar {
+    height:100px;
+    width:20px;
+    float:left;
+    margin:5px;
+    border-radius: 45px;
+}
+
+.feedback-form {
+    padding:4px;
+    background:white;
+    height:250px;
+}
+
+label, .form-header {
+    font-weight: bold;
+    color:bisque;
+}
+
+input:focus, textarea:focus {
+    border-bottom: 1px solid blue;
+}
+
+input [type='submit'] {
+background:rgb(61,196,49);
+border:none;
+height:40px;
+width:120px;
+color:#fff;
+text-align:left;
+}
+
+.review:hover {
+    box-shadow: 0 5px 8px 1px;
 }
