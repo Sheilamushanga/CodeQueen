@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex with Grid Assignment</title>
+    </head>
+    <style> 
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: (black);
+        }
+
+        h2{
+            text-transform: uppercase;
+            text-align: center;
+            color:darkred;
+        }
+
+    .container{
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 420px
+    }
+    .main{
+        display: flex;
+        background-color:dimgray;
+        flex-flow: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .flex{
+        border-radius: 20Px;
+        height: 200px;
+        width: 300px;
+        padding: 1px;
+        margin:2px;
+        background-color:saddlebrown;
+    }
+
+    .sidebar{
+        background-color:white;
+    }
+
+    a:hover{
+        background-color: black;
+        color: orange;
+    }
+
+    .flex:hover{
+        box-shadow: 0 5px 3px 1px;
+    }
+
+    </style>
+<body>
+    <h2> Class Assignment</h2>
+    <div class="container">
+        <div class="main">
+            <div class="flex">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Minus nisi ipsa modi, veniam quasi quibusdam id a laboriosam 
+                    doloremque corporis maxime alias incidunt doloribus accusamus 
+                    fugit nesciunt necessitatibus reprehenderit distinctio!</p>
+            </div>
+            <div class="flex">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Minus nisi ipsa modi, veniam quasi quibusdam id a laboriosam 
+                    doloremque corporis maxime alias incidunt doloribus accusamus 
+                    fugit nesciunt necessitatibus reprehenderit distinctio!</p>
+            </div>
+            <div class="flex">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Minus nisi ipsa modi, veniam quasi quibusdam id a laboriosam 
+                    doloremque corporis maxime alias incidunt doloribus accusamus 
+                    fugit nesciunt necessitatibus reprehenderit distinctio!</p>
+            </div>
+            <div class="flex">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Minus nisi ipsa modi, veniam quasi quibusdam id a laboriosam 
+                    doloremque corporis maxime alias incidunt doloribus accusamus 
+                    fugit nesciunt necessitatibus reprehenderit distinctio!</p>
+            </div>
+            <div class="flex">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Minus nisi ipsa modi, veniam quasi quibusdam id a laboriosam 
+                    doloremque corporis maxime alias incidunt doloribus accusamus 
+                    fugit nesciunt necessitatibus reprehenderit distinctio!</p>
+            </div>
+            <div class="flex">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Minus nisi ipsa modi, veniam quasi quibusdam id a laboriosam 
+                    doloremque corporis maxime alias incidunt doloribus accusamus 
+                    fugit nesciunt necessitatibus reprehenderit distinctio!</p>
+            </div>
+            <div class="flex">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Minus nisi ipsa modi, veniam quasi quibusdam id a laboriosam 
+                    doloremque corporis maxime alias incidunt doloribus accusamus 
+                    fugit nesciunt necessitatibus reprehenderit distinctio!</p>
+            </div>
+            <div class="flex">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Minus nisi ipsa modi, veniam quasi quibusdam id a laboriosam 
+                    doloremque corporis maxime alias incidunt doloribus accusamus 
+                    fugit nesciunt necessitatibus reprehenderit distinctio!</p>
+            </div>  
+        </div>
+        <div class="sidebar">
+            <ul class="navigation">
+                <li class="navigation-item"><a href="">Flex Link</a></li>
+                <li class="navigation-item"><a href="">Flex Link</a></li>
+                <li class="navigation-item"><a href="">Flex Link</a></li>
+                <li class="navigation-item"><a href="">Flex Link</a></li>
+                <li class="navigation-item"><a href="">Flex Link</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; Sheila Mushanga 2021
+    </div>
+</body>
+</html>
